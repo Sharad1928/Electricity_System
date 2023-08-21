@@ -1,0 +1,31 @@
+body
+{
+background-image:url('e5.jpg');
+background-image:"no-repeat";
+background-size:cover;
+}
+table
+{
+margin-top:150px;
+background-color:rgba(0,0,0,0.3);
+color:white;
+box-shadow:15px 15px 15px black;
+}
+.B
+{
+background:linear-gradient(red,blue);
+color:white;
+padding:5px;
+border-radius:0px 10px 0px 10px;
+}
+.B:hover
+{
+background:linear-gradient(blue,red);
+color:white;
+padding:5px;
+border-radius:10px 0px 10px 0px ;
+}
+.A
+{
+border-radius:20px;
+}

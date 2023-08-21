@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>log</servlet-name>
+        <servlet-class>log</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>menu</servlet-name>
+        <servlet-class>menu</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ins</servlet-name>
+        <servlet-class>ins</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>upd</servlet-name>
+        <servlet-class>upd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>log</servlet-name>
+        <url-pattern>/log</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>menu</servlet-name>
+        <url-pattern>/menu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ins</servlet-name>
+        <url-pattern>/ins</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>upd</servlet-name>
+        <url-pattern>/upd</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
